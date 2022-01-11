@@ -1,6 +1,7 @@
 runtime ./vimrc.vim
-set background=dark
+syntax enable
 set encoding=utf8
+set background=dark
 colorscheme zephyr
 lua require("basic")
 lua require("plugins")
@@ -14,6 +15,8 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
+Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/tagbar'
 call plug#end()
 lua require('lsp/nvim-cmp')
 
@@ -38,6 +41,7 @@ map <leader>h <C-w>h
 map <leader>j <C-w>j 
 map <leader>k <C-w>k
 map <leader>l <C-w>l
+nmap <F8> :TagbarToggle<CR>
 noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
 noremap <leader>/ :<C-U><C-R>=printf("Leaderf rg %s", "")<CR><CR>
 noremap <leader>ff :<C-U><C-R>=printf("Leaderf file %s", "")<CR><CR>

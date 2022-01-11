@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
+  delimitMate = {
+    loaded = true,
+    path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/delimitMate",
+    url = "https://github.com/Raimondi/delimitMate"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/friendly-snippets",
