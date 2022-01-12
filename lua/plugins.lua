@@ -7,6 +7,7 @@ return require('packer').startup(function()
   }
   -- theme
   use 'glepnir/zephyr-nvim'
+  use 'lifepillar/vim-solarized8'
   -- lsp
   use {'neovim/nvim-lspconfig'}
   -- nvim-cmp
@@ -15,7 +16,6 @@ return require('packer').startup(function()
   use 'hrsh7th/cmp-path'     -- { name = 'path' }
   use 'hrsh7th/cmp-cmdline'  -- { name = 'cmdline' }
   use 'hrsh7th/nvim-cmp'
-  use 'Raimondi/delimitMate'
   -- vsnip
   use 'hrsh7th/cmp-vsnip'    -- { name = 'vsnip' }
   use 'hrsh7th/vim-vsnip'
@@ -24,6 +24,8 @@ return require('packer').startup(function()
   use 'onsails/lspkind-nvim'
   -- easymotion
   use 'easymotion/vim-easymotion'
+  -- comment
+  use 'tpope/vim-commentary'
   -- treesitter
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   -- leaderf search
@@ -33,8 +35,9 @@ return require('packer').startup(function()
     'lewis6991/gitsigns.nvim',
     requires = {
       'nvim-lua/plenary.nvim'
-    },
+    }
+  }
   -- ariline git
   use 'tpope/vim-fugitive'
-  }
+
 end)

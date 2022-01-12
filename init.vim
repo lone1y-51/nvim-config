@@ -2,7 +2,9 @@ runtime ./vimrc.vim
 syntax enable
 set encoding=utf8
 set background=dark
-colorscheme zephyr
+set termguicolors
+let base16colorspace=256
+runtime ./colors/vim-base16-taptap.vim
 lua require("basic")
 lua require("plugins")
 lua require("plugin/nvim-tree")

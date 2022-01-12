@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
-  delimitMate = {
-    loaded = true,
-    path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/delimitMate",
-    url = "https://github.com/Raimondi/delimitMate"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -149,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
   ["vim-easymotion"] = {
     loaded = true,
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/vim-easymotion",
@@ -158,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-solarized8"] = {
+    loaded = true,
+    path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/vim-solarized8",
+    url = "https://github.com/lifepillar/vim-solarized8"
   },
   ["vim-vsnip"] = {
     loaded = true,
