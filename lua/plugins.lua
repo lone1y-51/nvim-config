@@ -27,7 +27,7 @@ return require('packer').startup(function()
   -- comment
   use 'tpope/vim-commentary'
   -- treesitter
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate', commit="6b5b37cc3ee2468beef1289980102fc3c4e06e2c" }
   -- leaderf search
   use { 'Yggdroot/LeaderF', run = ':LeaderfInstallCExtension' }
   -- git 
@@ -39,5 +39,7 @@ return require('packer').startup(function()
   }
   -- ariline git
   use 'tpope/vim-fugitive'
+  -- floaterm
+  use {'voldikss/vim-floaterm'}
 
 end)

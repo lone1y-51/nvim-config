@@ -48,3 +48,5 @@ noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
 noremap <leader>/ :<C-U><C-R>=printf("Leaderf rg %s", "")<CR><CR>
 noremap <leader>ff :<C-U><C-R>=printf("Leaderf file %s", "")<CR><CR>
 noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
+noremap <leader>tn :FloatermNew<CR>
+noremap <leader>tn :FloatermNew<CR>

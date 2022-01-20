@@ -154,6 +154,11 @@ _G.packer_plugins = {
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/vim-easymotion",
     url = "https://github.com/easymotion/vim-easymotion"
   },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/lone1y/.local/share/nvim/site/pack/packer/start/vim-fugitive",
