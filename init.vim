@@ -27,6 +27,7 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#branch#enabled = 1
 let g:Lf_WindowPosition = 'popup'
 let g:EasyMotion_do_mapping = 0
+let g:floaterm_autoclose = 1
 
 let g:Lf_HideHelp = 1
 let g:Lf_UseVersionControlTool = 0
@@ -44,6 +45,7 @@ map <leader>j <C-w>j
 map <leader>k <C-w>k
 map <leader>l <C-w>l
 nmap <F8> :TagbarToggle<CR>
+nnoremap <leader>rt :NvimTreeRefresh<CR>
 noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
 noremap <leader>/ :<C-U><C-R>=printf("Leaderf rg %s", "")<CR><CR>
 noremap <leader>ff :<C-U><C-R>=printf("Leaderf file %s", "")<CR><CR>
