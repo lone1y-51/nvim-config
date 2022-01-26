@@ -4,7 +4,7 @@ local nvim_lsp = require('lspconfig')
 -- https://github.com/williamboman/nvim-lsp-installer#available-lsps
 -- { key: 语言 value: 配置文件 }
 
-local servers = { "gopls" }
+local servers = { "gopls", "pylsp"}
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = function(_, bufnr)
