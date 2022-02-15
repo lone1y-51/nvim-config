@@ -18,3 +18,4 @@ for _, lsp in ipairs(servers) do
     }
   }
 end
+vim.diagnostic.config({signs = false})
